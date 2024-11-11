@@ -1,0 +1,254 @@
+.body{
+   background: white;
+   margin: 0;
+   padding: 0;
+}
+.toparea{
+   text-align: center;
+   padding: 10px 0px;
+   background: rgba(255,255,255,0.1);
+   
+}
+#head ul li{
+   list-style: none;
+   float: left;
+   margin: 10px 10px;
+   color: #0F351B;
+   font-weight: bolder;
+}
+.topimg{
+   position: absolute;
+   top: 0;
+   z-index: -100;
+}
+.topimg img{
+   width: 100%;
+   height: 500px;
+   margin: 0 0 0 0;
+}
+#shop{
+   padding:10px;
+   background: #0F351B;
+   color: white;
+   width: 100px;
+   border-radius: 5%;
+   margin-bottom: 10px;
+   
+}
+.container3{
+   color: white;
+   margin-top: 30px;
+   text-align: justify;
+}
+.feature{
+   margin-top: 80px;
+   padding: 60px 0px;
+}
+#f1{
+   text-align: left;
+   padding-bottom: 10px;
+   color: #0F351B;
+   font-weight: bolder;
+   
+}
+#f2{
+   text-align: right;
+   color: #0F351B;
+   font-weight: bolder;
+   margin-bottom: 30px;
+}
+#f2 a:visited,#f2 a:link{
+   color: white;
+   text-decoration: none;
+   background: #0F351B;
+   display: inline;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+#f2 a:hover{
+   color: white;
+   text-decoration: none;
+   display: inline;
+   background: #0F351B;
+}
+.feature-img1{
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+}
+.details{
+   position: absolute;
+   top: 170px;
+   background: rgba(0,0,0,0.4);
+   width: 90%;
+   color: white;
+   transition: all 2s;
+   padding: 0px 20px;
+}
+.feature-img1:hover .details{
+   top: 120px;
+}
+.feature-img2{
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+}
+.details{
+   position: absolute;
+   top: 170px;
+   background: rgba(0,0,0,0.4);
+   width: 90%;
+   color: white;
+   transition: all 2s;
+   padding: 0px 20px;
+}
+.feature-img2:hover .details{
+   top: 120px;
+}
+.feature-img3{
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+}
+.details{
+   position: absolute;
+   top: 170px;
+   background: rgba(0,0,0,0.4);
+   width: 90%;
+   color: white;
+   transition: all 2s;
+   padding: 0px 20px;
+}
+.feature-img3:hover .details{
+   top: 120px;
+}
+.buy{
+   position: absolute;
+   right: 10px;
+   top: 40px;
+   padding: 5px;
+   border: solid 1px white;
+   display: inline;
+}
+.search{
+   padding: 50px 100px;
+   background-image: url('search-bg.png');
+   background-size: 100% 100%;
+   width: 100%;
+   margin: 0;
+}
+#search{
+   width: 600px;
+}
+
+.footer{
+   background: #0F351B;
+   text-align: left;
+   color: white;
+   width: 100%;
+   padding: 50px 0;
+}
+#fo2 p{
+   color: lightgrey;
+   line-height: 15px;
+}
+/*#fo2 ul li{
+   list-style-type: none;
+}*/
+#fo3 p{
+   color: lightgrey;
+   line-height: 15px;
+}
+#fo4 p{
+   color: lightgrey;
+}
+.fo5{
+   text-align: left;
+}
+.fo6{
+   text-align: right;
+}
+.last-row{
+   background: rgba(255,255,255,0.1);
+   border-radius: 5%;
+   padding: 30px 0;
+}
+.new{
+   margin-top: 30px;
+   padding: 40px 0;
+}
+.new-a{
+   text-align: left;
+   font-weight: bolder;
+   color: #0F351B;
+   font-size: 20px;
+}
+.new-b{
+   text-align: right;
+   font-weight: bolder;
+   color: #0F351B;
+   margin-bottom: 30px;
+}
+.new-b a:visited,.new-b a:link{
+   color: white;
+   text-decoration: none;
+   background: #0F351B;
+   display: inline;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.new-b a:hover{
+   color: white;
+   text-decoration: none;
+   display: inline;
+   background: #0F351B;
+}
+.new-img{
+   margin-bottom: 30px;
+   opacity:0.7;
+}
+.new-img:hover{
+   opacity:1;
+}
+.stand{
+   padding: 30px 0;
+   text-align: left;
+   margin: 10px 0;
+}
+.stand-img{
+   transition: all 2s;
+}
+.stand-img:hover{
+   transform: scale(0.7,0.7);
+}
+.s{
+   margin: 40px 0;
+   padding: 10px 0;
+   font-weight: bolder;
+   font-size: 20px;
+}
+.stand-img{
+   margin-bottom: 30px;
+}
+.service{
+   padding: 10px 0;
+   margin: 10px 0;
+   position: relative;
+}
+.service h2{
+   position: absolute;
+   top: 30px;
+   left: 40%;
+   color: white;
+}
+.service p{
+   position: absolute;
+   top: 90px;
+   left: 30%;
+   color: white;
+}
+.service img{
+   border-radius: 3%;
+}
